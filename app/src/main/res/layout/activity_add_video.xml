@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AddVideoActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:background="#948E8E"
+            android:hint="@string/enter_tittle"
+            android:inputType="textPersonName|textCapSentences"
+            android:padding="10dp"
+            android:textColor="@color/black" />
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@+id/etTitle"
+            android:layout_marginTop="6dp"
+            android:layout_weight="1" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnUplod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/videoView"
+            android:layout_marginTop="5dp"
+            android:background="@color/black"
+            android:text="Uplod Video" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fbVideoPicker"
+        android:src="@drawable/ic_baseline_video_library_24"
+        android:backgroundTint="@color/white"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"/>
+
+
+</RelativeLayout>

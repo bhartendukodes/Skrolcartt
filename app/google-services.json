@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "962373919908",
+    "project_id": "skrolcart-350fc",
+    "storage_bucket": "skrolcart-350fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962373919908:android:e6448b2327a7a84747b231",
+        "android_client_info": {
+          "package_name": "com.example.skrolcart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962373919908-nsa1641e7s5arkljhv62pgvkrdr6uq5q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDhRaBueTKgG-91DMRy_qaEZJmaIbRVoA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962373919908-nsa1641e7s5arkljhv62pgvkrdr6uq5q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
